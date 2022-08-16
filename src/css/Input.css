@@ -1,3 +1,56 @@
+.mainContainer {
+    background-color: lightsteelblue;
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    width: 20%;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
 .inputC {
     display: grid;
 }
+
+.eachTask {
+    text-align: center;
+    text-decoration: none;
+    float: left;
+    width: 100%;
+    word-break: break-all;
+    margin-right: auto;
+    margin-left: 5px;
+}
+
+.task {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 2px;
+}
+
+#taskC {
+    margin-top: 2%;
+    height: 60%;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    overflow-y: auto;
+}
+
+.doneTask {
+    text-decoration: line-through;
+    width: 100%;
+    word-break: break-all;
+    margin-right: auto;
+    margin-left: 5px;
+}
+
+.eachImage {
+    margin-left: auto;
+}
+
